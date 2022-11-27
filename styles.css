@@ -1,0 +1,85 @@
+:root {
+    --background-color: #E6E8E6;
+    --text-color: #1E1E24;
+    --accent-color-1: #105237;
+    --darker-background-color: ##BBBBBB;
+}
+
+*, *::after, *::before {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, p, a {
+    color: var(--text-color);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+main {
+    height: 100vh;
+    background-color: #D7D7D7;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E8E6;
+    border-radius: 35px;
+    min-width: 900px;
+    padding: 2em;
+
+}
+
+#hero-copy-container {
+    width: 45ch;
+}
+
+#hero-copy-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#hero-copy-container h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0.3em;
+}
+
+#hero-copy-container a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#hero-copy-container a:hover {
+    color: var(--accent-color-1);
+}
+
+#hero-copy-container a:active {
+    color: #E6E8E6;
+}
+
+#hero-copy-container a:visited{
+    color: var(--text-color);
+}
